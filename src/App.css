@@ -1,0 +1,63 @@
+.html, .body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.container {
+  padding: 0 15px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.card {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #dddddd;
+  box-shadow: 5px 10px 15px 10px #888888;
+  justify-content: space-evenly;
+}
+.img-wrapper img{
+  height: 300px;
+  width: 300px;
+}
+
+.search {
+  position: fixed;
+  top: 50%;
+  background: #ffc1078a;
+  padding: 10px;
+  border-radius: 10px;
+}
+.search input {
+  border: transparent;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px;
+  width: 100px;
+  margin: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  color: white;
+  border: transparent;
+  font-weight: 600;
+}
+.btn-success {
+  background: green;  
+}
+.btn-danger {
+  background: red;
+}
